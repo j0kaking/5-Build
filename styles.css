@@ -36,17 +36,31 @@ header p {
     margin-top: 0.5rem;
     color: #94a3b8;
 }
-@media screen and (width <= 750px) {
-  body{ 
-    grid-template-columns:1fr;
-    background-color:rgb(20, 39, 74);
-    font-family: 'Times New Roman', Times, serif;
-    gap:1rem;
-    }
-  }
 
+@media screen and (min-width: 800px) {
+  body{
+    grid-template-columns:1fr 300px;
+    background-color:rgb(20, 39, 74);
+    font-family:'Times New Roman', Times, serif;
+    gap:1rem;
+}
+header, nav, footer{
+    grid-column:1/-1;
+  }
+    nav{
+    display:flex;
+    justify-content: space-around;
+  }
+  .card-row{
+    display:flex;
+  }
+  .card-row, section{
+    width:100%;
+  }
+}
 nav {
     background-color: #020617;
+    justify-content:space-around;
 }
 
 nav ul {
@@ -75,7 +89,7 @@ h3 {
     text-transform:capitalize;
 }
 img {
-    width:75%;
+    width:100%;
 }
 
 #index, #screenings, #workshops, #collaborations {
