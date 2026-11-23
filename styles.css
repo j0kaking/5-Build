@@ -27,11 +27,9 @@ header {
     text-align:center;
     padding:1rem;
 }
-
 header h1 {
-    margin: 0;
+    margin:0;
 }
-
 header p {
     margin-top: 0.5rem;
     color: #94a3b8;
@@ -51,7 +49,7 @@ header, nav, footer{
   }
     nav{
     display:flex;
-    justify-content:left;
+    justify-content:space-around;
   }
   .card-row{
     display:flex;
@@ -64,7 +62,6 @@ nav {
     background-color: #020617;
     justify-content:space-around;
 }
-
 nav ul {
     list-style: none;
     margin: 0;
@@ -104,7 +101,6 @@ img {
     padding: 1rem;
     border-left: 4px solid #38bdf8;
 }
-
 aside {
     background-color: #38bdf8;
     color: #1e293b;
