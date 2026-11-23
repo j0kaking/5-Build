@@ -5,3 +5,6 @@ updated the fork and included a media query to change the font on a mobile scree
 the background for mobile to a slightly lighter hue as well. 
 
 created separate pages for the screenings section, the workshops section, and the collaborations section of the site. 
+
+AI was used in the generation of the paragraphs on the additional pages.
+
