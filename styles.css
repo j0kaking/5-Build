@@ -14,7 +14,7 @@
 /* ===== GLOBAL (Base) Styles ===== */
 body {
     font-family: Helvetica, Arial, sans-serif;
-    margin: 0;
+    margin:0;
     background-color: #0f172a;
     color: #e2e8f0;
     min-width:500px;
@@ -24,8 +24,8 @@ body {
 
 header {
     background-color: #1e293b;
-    text-align: center;
-    padding: 1.5rem;
+    text-align:center;
+    padding:1rem;
 }
 
 header h1 {
@@ -43,7 +43,7 @@ h2{
   body{
     grid-template-columns:1fr 300px;
     background-color:rgb(20, 39, 74);
-    font-family:'Times New Roman', Times, serif;
+    font-family:'Times New Roman', Times, sans-serif;
     gap:1rem;
 }
 header, nav, footer{
@@ -51,7 +51,7 @@ header, nav, footer{
   }
     nav{
     display:flex;
-    justify-content: space-around;
+    justify-content:left;
   }
   .card-row{
     display:flex;
@@ -74,9 +74,10 @@ nav ul {
 nav a {
     color: #e2e8f0;
     text-decoration: none;
+    text-align:left;
     padding: 0.5rem;
     display: block;
-    border-left: 4px dotted #38bdf8;
+    border-left: 4px ridge #38bdf8;
     margin: .25rem;
 }
 
@@ -88,7 +89,7 @@ nav{
     justify-content:left;
 }
 main {
-    padding: 1rem;
+    padding:.5rem;
 }
 h3 {
     text-transform:capitalize;
@@ -110,9 +111,10 @@ aside {
     padding: 1rem;
     padding: 1rem;
 }
-aside, h2{
+aside h2{
     text-transform: capitalize;
 }
+
 a {
     display:block;
     background-color:#020617;
@@ -133,6 +135,7 @@ footer {
     padding: 1rem;
     margin-top: 1rem;
 }
+
 
 /* ===== Media Query (Medium) ===== */
 /* write a media query for a screen with at least 800px */
